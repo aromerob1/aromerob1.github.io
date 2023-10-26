@@ -1,0 +1,30 @@
+#picture {
+    width: 150px;
+    height: 150px;
+}
+
+#my-description {
+    padding-right: 200px;
+}
+
+#technologies i {
+    cursor: pointer;
+}
+
+#technologies i:hover {
+    color: #bcd42a;
+}
+
+.underline {
+    border: 2px solid #ddff00;
+    width: 150px; 
+}
+
+.technology {
+    font-size: 2rem;
+    color: black;
+}
+
+.technology:hover {
+    color: #bcd42a;
+}
