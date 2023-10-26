@@ -7,7 +7,7 @@ function Projects() {
     {
       title: "Gaming Marketplace",
       image: Pi1,
-      url: "jirejifej.io",
+      url: "https://aromerob1.github.io/gaming-marketplace/",
       technologies: "React;Tailwind CSS;Typescript",
     },
   ];
