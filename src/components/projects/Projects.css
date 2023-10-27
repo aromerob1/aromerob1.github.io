@@ -5,3 +5,15 @@
 #project-card{
     cursor: pointer;
 }
+
+.project-image {
+    height: 150px; 
+    width: 100%; 
+}
+
+.title-container {
+    min-height: 50px; 
+    max-height: 50px; 
+    overflow: hidden; 
+}
+
