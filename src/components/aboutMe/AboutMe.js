@@ -7,9 +7,9 @@ function AboutMe() {
       <section id="about" className="text-white mt-4">
         <div className="row">
           <div className="col">
-            <img id="picture" className="rounded-5" src={Picture}></img>
+            <img id="picture" className="rounded-5 img-fuid" src={Picture}></img>
           </div>
-          <div id="my-description" className="col-10">
+          <div id="my-description" className="col-12 col-md-10 mt-3 mt-md-0">
             <h2>About Me</h2>
             <p>
               Emerging Web Developer from Universidad de Los Andes, specializing
@@ -22,19 +22,20 @@ function AboutMe() {
         </div>
         <div id="technologies" className="mt-4">
           <h4>Technologies</h4>
-          <i className="devicon-express-original display-6"></i>
-          <i className="devicon-react-original-wordmark display-6 ms-4"></i>
-          <i className="devicon-css3-plain display-6 ms-4"></i>
-          <i className="devicon-git-plain display-6 ms-4"></i>
-          <i className="devicon-github-original display-6 ms-4"></i>
-          <i className="devicon-html5-plain display-6 ms-4"></i>
-          <i className="devicon-java-plain-wordmark display-6 ms-4"></i>
-          <i className="devicon-javascript-plain display-6 ms-4"></i>
-          <i className="devicon-nodejs-plain-wordmark display-6 ms-4"></i>
-          <i className="devicon-nextjs-original display-6 ms-4"></i>
-          <i className="devicon-python-plain-wordmark display-6 ms-4"></i>
-          <i class="devicon-typescript-plain display-6 ms-4"></i>
-          
+          <div className="d-flex flex-wrap">
+            <i className="devicon-express-original display-6 me-4"></i>
+            <i className="devicon-react-original-wordmark display-6 me-4"></i>
+            <i className="devicon-css3-plain display-6 me-4"></i>
+            <i className="devicon-git-plain display-6 me-4"></i>
+            <i className="devicon-github-original display-6 me-4"></i>
+            <i className="devicon-html5-plain display-6 me-4"></i>
+            <i className="devicon-java-plain-wordmark display-6 me-4"></i>
+            <i className="devicon-javascript-plain display-6 me-4"></i>
+            <i className="devicon-nodejs-plain-wordmark display-6 me-4"></i>
+            <i className="devicon-nextjs-original display-6 me-4"></i>
+            <i className="devicon-python-plain-wordmark display-6 me-4"></i>
+            <i class="devicon-typescript-plain display-6 me-4"></i>
+          </div>
         </div>
       </section>
       <section className="bg-dark text-white mt-5">

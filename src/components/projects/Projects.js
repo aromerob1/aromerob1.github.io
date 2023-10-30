@@ -27,10 +27,10 @@ function Projects() {
   ];
   return (
     <section id="projects" className="text-white mt-5">
-      <h1 className="mb-4">Projects</h1>
+      <h1 className="mb-0 mb-md-4">Projects</h1>
       <div className="row">
         {projects.map((project) => (
-          <div className="col-3">
+          <div className="col-12 col-md-4">
             <Project
               image={project.image}
               title={project.title}

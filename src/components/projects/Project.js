@@ -8,8 +8,7 @@ function Project({ image, title, url, technologies }) {
   return (
     <div
       id="project-card"
-      className="card"
-      style={{ width: "18rem" }}
+      className="card mt-4 mt-md-0"
       onClick={handleClick}
     >
       <img src={image} className="card-img-top project-image" alt="project" />
