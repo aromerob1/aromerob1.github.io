@@ -7,7 +7,11 @@ function AboutMe() {
       <section id="about" className="text-white mt-4">
         <div className="row">
           <div className="col">
-            <img id="picture" className="rounded-5 img-fuid" src={Picture}></img>
+            <img
+              id="picture"
+              className="rounded-5 img-fuid"
+              src={Picture}
+            ></img>
           </div>
           <div id="my-description" className="col-12 col-md-10 mt-3 mt-md-0">
             <h2>About Me</h2>
@@ -46,7 +50,7 @@ function AboutMe() {
             </h3>
           </div>
           <div className="mb-0 col-10">
-            <h5>Systems Engineering</h5>
+            <h5>Computer and Systems Engineering</h5>
             <p>Universidad de los Andes, Bogotá • January 2020 — Present</p>
           </div>
         </div>
@@ -59,11 +63,20 @@ function AboutMe() {
           </div>
 
           <div className="mb-0 col-10">
-            <h5>Lead Web Development Facilitator</h5>
-            <p>
-              'Todos a la U' at Universidad de Los Andes, Bogotá • May 2023 —
-              August 2023
-            </p>
+            <div className="mb-4">
+              <h5>Freelance Web Developer</h5>
+              <p>January 2021 — Present</p>
+            </div>
+            <div className="mb-4">
+              <h5>Lead Web Development Facilitator</h5>
+              <p>Universidad de Los Andes, Bogotá • May 2023 — August 2023</p>
+            </div>
+            <div className="mb-4">
+              <h5>
+                Research Assistantfor Data Structures and Algorithms Course
+              </h5>
+              <p>Universidad de Los Andes, Bogotá • January 2022 — May 2022</p>
+            </div>
           </div>
         </div>
       </section>
