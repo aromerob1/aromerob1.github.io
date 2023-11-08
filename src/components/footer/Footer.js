@@ -11,6 +11,7 @@ function Footer() {
             target="_blank"
             role="button"
             id="footer-btn"
+            rel="noreferrer"
           >
             <i className="bi bi-linkedin"></i>
           </a>
@@ -21,6 +22,7 @@ function Footer() {
             target="_blank"
             role="button"
             id="footer-btn"
+            rel="noreferrer"
           >
             <i className="bi bi-github"></i>
           </a>
@@ -30,6 +32,7 @@ function Footer() {
             target="_blank"
             role="button"
             id="footer-btn"
+            rel="noreferrer"
           >
             <i className="bi bi-envelope-fill"></i>
           </a>

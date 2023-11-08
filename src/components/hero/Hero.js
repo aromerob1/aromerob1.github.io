@@ -9,16 +9,25 @@ function Hero() {
       <div className="container">
         <h1>I'm Andres Felipe Romero.</h1>
         <div id="hero-icons">
-          <a href="https://github.com/aromerob1" target="_blank">
+          <a
+            href="https://github.com/aromerob1"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-github me-2"></i>
           </a>
           <a
             href="https://www.linkedin.com/in/andr%C3%A9s-felipe-romero-brand-58b126191/"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="bi bi-linkedin me-2"></i>
           </a>
-          <a href="mailto:andresfeliperom@hotmail.com" target="_blank">
+          <a
+            href="mailto:andresfeliperom@hotmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="bi bi-envelope-fill"></i>
           </a>
         </div>

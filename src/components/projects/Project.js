@@ -8,7 +8,7 @@ function Project({ image, title, url, technologies }) {
   return (
     <div
       id="project-card"
-      className="card mt-4 mt-md-0"
+      className="card mt-4 mt-md-4"
       onClick={handleClick}
     >
       <img src={image} className="card-img-top project-image" alt="project" />
@@ -42,7 +42,56 @@ function Project({ image, title, url, technologies }) {
               return (
                 <i className={`devicon-java-plain technology ${margin}`} />
               );
-            }
+            } else if (technology === "NPM") {
+              return (
+                <i className={`devicon-npm-original-wordmark technology ${margin}`} />
+              );
+            } else if (technology === "HTML") {
+              return (
+                <i className={`devicon-html5-plain technology ${margin}`} />
+              );
+            } else if (technology === "CSS") {
+              return (
+                <i className={`devicon-css3-plain technology ${margin}`} />
+              );
+            } else if (technology === "Javascript") {
+              return (
+                <i className={`devicon-javascript-plain technology ${margin}`} />
+              );
+            } else if (technology === "SQLServer") {
+              return (
+                <i className={`devicon-microsoftsqlserver-plain technology ${margin}`} />
+              );
+            } else if (technology === "C#") {
+              return (
+                <i className={`devicon-csharp-plain technology ${margin}`} />
+              );
+            } else if (technology === ".NETCORE") {
+              return (
+                <i className={`devicon-dotnetcore-plain technology ${margin}`} />
+              );
+            } else if (technology === "Heroku") {
+              return (
+                <i className={`devicon-heroku-plain technology ${margin}`} />
+              );
+            } else if (technology === "Azure") {
+              return (
+                <i className={`devicon-azure-plain technology ${margin}`} />
+              );
+            } else if (technology === "Bootstrap") {
+              return (
+                <i className={`devicon-bootstrap-plain technology ${margin}`} />
+              );
+            } else if (technology === "NodeJS") {
+              return (
+                <i className={`devicon-nodejs-plain technology ${margin}`} />
+              );
+            } else if (technology === "MongoDB") {
+              return (
+                <i className={`devicon-mongodb-plain technology ${margin}`} />
+              );
+            } 
+            else return null;
           })}
         </div>
       </div>

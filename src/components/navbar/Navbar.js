@@ -5,7 +5,7 @@ function Navbar() {
       data-bs-theme="dark"
     >
       <div className="container">
-        <a class="navbar-brand" href="#">{"{AndresRomero}"}</a>
+        <a class="navbar-brand" href="/">{"{AndresRomero}"}</a>
         <button
           className="navbar-toggler"
           type="button"

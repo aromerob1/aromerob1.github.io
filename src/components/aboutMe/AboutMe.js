@@ -10,6 +10,7 @@ function AboutMe() {
             <img
               id="picture"
               className="rounded-5 img-fuid"
+              alt="personal"
               src={Picture}
             ></img>
           </div>
@@ -39,6 +40,10 @@ function AboutMe() {
             <i className="devicon-nextjs-original display-6 me-4"></i>
             <i className="devicon-python-plain-wordmark display-6 me-4"></i>
             <i class="devicon-typescript-plain display-6 me-4"></i>
+            <i class="devicon-csharp-plain-wordmark display-6 me-4"></i>
+            <i class="devicon-dotnetcore-plain display-6 me-4"></i>
+            <i class="devicon-mongodb-plain-wordmark display-6 me-4"></i>
+            <i class="devicon-microsoftsqlserver-plain-wordmark display-6 me-4"></i>
           </div>
         </div>
       </section>
