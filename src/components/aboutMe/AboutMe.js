@@ -16,7 +16,7 @@ function AboutMe() {
           <div id="my-description" className="col-12 col-md-10 mt-3 mt-md-0">
             <h2>About Me</h2>
             <p>
-              Emerging Web Developer from Universidad de Los Andes, specializing
+              Web Developer from Universidad de Los Andes, specializing
               in Systems Engineering. Proficient with MERN stack, Python, and
               Java for building scalable solutions. Passionate programmer, quick
               tech adapter, and advocate for knowledge sharing. Eager to
@@ -64,18 +64,22 @@ function AboutMe() {
 
           <div className="mb-0 col-10">
             <div className="mb-4">
-              <h5>Freelance Web Developer</h5>
-              <p>January 2021 — Present</p>
+              <h5>Junior Web Developer</h5>
+              <p>Autoservicio La Quinta, Barrancabermeja • January 2022 — July 2022</p>
             </div>
             <div className="mb-4">
               <h5>Lead Web Development Facilitator</h5>
               <p>Universidad de Los Andes, Bogotá • May 2023 — August 2023</p>
             </div>
             <div className="mb-4">
+              <h5>Freelance Web Developer</h5>
+              <p>January 2021 — Present</p>
+            </div>
+            <div className="mb-4">
               <h5>
-                Research Assistantfor Data Structures and Algorithms Course
+                Research Assistant for Data Structures and Algorithms Course
               </h5>
-              <p>Universidad de Los Andes, Bogotá • January 2022 — May 2022</p>
+              <p>Universidad de Los Andes, Bogotá • January 2021 — May 2021</p>
             </div>
           </div>
         </div>
