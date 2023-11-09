@@ -70,7 +70,7 @@ function AboutMe() {
           <div className="mb-0 col-10">
             <div className="mb-4">
               <h5>Junior Web Developer</h5>
-              <p>Autoservicio La Quinta, Barrancabermeja • January 2022 — July 2022</p>
+              <p>Autoservicio La Quinta, Barrancabermeja • January 2022 — December 2022</p>
             </div>
             <div className="mb-4">
               <h5>Lead Web Development Facilitator</h5>
