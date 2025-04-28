@@ -1,0 +1,19 @@
+#hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.2)), url('./assets/hero.png');
+    color: white;
+    height: 90vh;
+}
+
+#hero-resume-button a {
+    background-color: #bcd42a !important;
+}
+
+#hero-icons i {
+    font-size: 2rem;
+    color: white;
+}
+
+#hero-icons i:hover {
+    color: #bcd42a;
+}
+

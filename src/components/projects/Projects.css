@@ -1,0 +1,19 @@
+#project-button {
+    background-color: #bcd42a !important;
+}
+
+#project-card{
+    cursor: pointer;
+}
+
+.project-image {
+    height: 150px; 
+    width: 100%; 
+    object-fit: cover;
+}
+
+.title-container {
+    min-height: 50px; 
+    max-height: 50px; 
+}
+
