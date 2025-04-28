@@ -17,11 +17,7 @@ function AboutMe() {
           <div id="my-description" className="col-12 col-md-10 mt-3 mt-md-0">
             <h2>About Me</h2>
             <p>
-              Web Developer from Universidad de Los Andes, specializing
-              in Systems Engineering. Proficient with MERN stack, Python, and
-              Java for building scalable solutions. Passionate programmer, quick
-              tech adapter, and advocate for knowledge sharing. Eager to
-              collaborate and create impactful digital solutions!
+            Full-stack developer with over 3 years of experience building responsive web applications and cloud-native microservices using JavaScript/TypeScript (React, Astro, Next.js, Angular), Node.js frameworks (Express, NestJS), Python (Flask), Spring Boot, .NET and SQL/NoSQL databases (MySQL, PostgreSQL, MongoDB). Skilled in CI/CD pipelines (Docker, Jenkins, GitHub Actions), AWS & GCP deployments, GraphQL, SEO optimization and real-time systems (WebSockets).
             </p>
           </div>
         </div>
@@ -56,7 +52,7 @@ function AboutMe() {
           </div>
           <div className="mb-0 col-10">
             <h5>Computer and Systems Engineering</h5>
-            <p>Universidad de los Andes, Bogotá • January 2020 — Present</p>
+            <p>Universidad de los Andes, Bogotá • January 2020 — May 2025</p>
           </div>
         </div>
         <hr />
@@ -68,25 +64,29 @@ function AboutMe() {
           </div>
 
           <div className="mb-0 col-10">
-            <div className="mb-4">
-              <h5>Junior Web Developer</h5>
-              <p>Autoservicio La Quinta, Barrancabermeja • January 2022 — December 2022</p>
+          <div className="mb-4">
+              <h5>Full Stack Developer</h5>
+              <p>Keep Calm Services, Miami - United States • January 2025 — Present</p>
+            </div>
+          <div className="mb-4">
+              <h5>Junior Full Stack Developer</h5>
+              <p>Mas Alcance, Medellin - Colombia • November 2023 — October 2024</p>
             </div>
             <div className="mb-4">
-              <h5>Lead Web Development Facilitator</h5>
-              <p>Universidad de Los Andes, Bogotá • May 2023 — August 2023</p>
+              <h5>Web Development Teaching Assistant</h5>
+              <p>Universidad de Los Andes, Bogotá - Colombia • May 2023 — August 2023</p>
             </div>
             <div className="mb-4">
-              <h5>Freelance Web Developer</h5>
-              <p>January 2021 — Present</p>
+              <h5>Junior Full Stack Developer</h5>
+              <p>Autoservicio La Quinta, Barrancabermeja - Colombia • January 2022 — December 2022</p>
             </div>
             <div className="mb-4">
               <h5>
-                Research Assistant for Data Structures and Algorithms Course
+                Teaching Assistant for Data Structures and Algorithms Course
               </h5>
-              <p>Universidad de Los Andes, Bogotá • January 2021 — May 2021</p>
+              <p>Universidad de Los Andes, Bogotá - Colombia • January 2021 — May 2021</p>
             </div>
-          </div>
+          </div> 
         </div>
       </section>
     </>
