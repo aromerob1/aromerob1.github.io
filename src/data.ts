@@ -129,14 +129,12 @@ export const projects: Project[] = [
     status: "live",
   },
   {
-    title: "Tasks Center",
-    blurb: "Task manager + REST API",
+    title: "Weather Predictor",
+    blurb: "Algorithmic forecasting engine",
     description:
-      "A task manager split into an independent React front end and its own REST API, with authentication and separate front/back deployments.",
-    stack: ["React", "Node.js", "MongoDB"],
-    url: "https://aromerob1.github.io/tasksCenter-frontend/",
-    repo: "https://github.com/aromerob1/tasksCenter-api",
-    status: "live",
+      "A TypeScript engine that forecasts droughts, rainy seasons and optimal conditions over a 10-year span by modelling planetary alignments with geometric calculations, served over an Express API backed by SQLite.",
+    stack: ["TypeScript", "Express", "SQLite", "Algorithms"],
+    repo: "https://github.com/aromerob1/weather-predictor",
   },
 ];
 
