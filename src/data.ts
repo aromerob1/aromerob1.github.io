@@ -6,7 +6,7 @@ export const profile = {
   // Hero statement (the serif word is highlighted)
   headline: { before: "I build", accent: "products", after: "end to end." },
   tagline:
-    "Full-stack developer with 2+ years shipping responsive web apps and cloud-native services — React, Next.js and NestJS on AWS and GCP — and increasingly building with LLMs and AI agents.",
+    "Full-stack developer with 2+ years shipping responsive web apps and cloud-native services — SvelteKit, React and NestJS on AWS and GCP — and increasingly building with LLMs and AI agents.",
   email: "andresfeliperom@hotmail.com",
   github: "https://github.com/aromerob1",
   linkedin: "https://www.linkedin.com/in/aromerobrand/",
@@ -24,7 +24,7 @@ export const stats = [
 export const about = {
   paragraphs: [
     "I’m a full-stack developer who likes owning features from the database to the UI. I’ve built reservation platforms, payment systems, real-time tooling and internal CRMs for commercial clients — mostly remote, across products that had to ship and keep working.",
-    "I move comfortably between React/Next.js/Astro on the front and Node.js/NestJS on the back, and I’m increasingly hands-on with cloud and DevOps (GCP, AWS, Docker, CI/CD). Lately I’ve been going deep on AI engineering — integrating LLMs into products, building agentic workflows, and working daily with tools like Claude Code, Cursor and Codex. I care about clean architecture, real-time UX and code that the next person can read.",
+    "These days I work mostly in SvelteKit and NestJS, and move just as comfortably across React, Next.js and Astro. I’m increasingly hands-on with cloud and DevOps (GCP, AWS, Docker, CI/CD), and lately I’ve been going deep on AI engineering — integrating LLMs into products, building agentic workflows, and working daily with tools like Claude Code, Cursor and Codex. I care about clean architecture, real-time UX and code that the next person can read.",
   ],
   languages: [
     { name: "Spanish", level: "Native" },
@@ -56,12 +56,12 @@ export const experience: Job[] = [
     period: "Jan 2025 — Present",
     current: true,
     bullets: [
-      "Build and ship marketing and landing sites in Astro and Next.js, tuned for SEO and performance.",
+      "Build and maintain web apps and internal tools with SvelteKit and NestJS — TypeScript across the stack.",
       "Design RESTful APIs and database schemas for an internal CRM platform that runs core business workflows.",
+      "Build and ship marketing sites in Astro and Next.js, tuned for SEO and performance.",
       "Containerize and deploy services on GCP (Cloud Run, Cloud SQL, Cloud Storage) with automated scaling.",
-      "Maintain and harden legacy WordPress sites — security patches and performance work.",
     ],
-    stack: ["Next.js", "Astro", "NestJS", "Node.js", "GCP", "Docker", "PostgreSQL"],
+    stack: ["SvelteKit", "NestJS", "Next.js", "Astro", "Node.js", "GCP", "PostgreSQL"],
   },
   {
     role: "Full-Stack Developer",
@@ -149,7 +149,7 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: "Frontend",
-    items: ["React", "Next.js", "Astro", "Angular", "Tailwind CSS", "Ionic", "Material UI"],
+    items: ["Svelte", "SvelteKit", "React", "Next.js", "Astro", "Angular", "Tailwind CSS", "shadcn/ui", "Ionic"],
   },
   {
     group: "Backend",

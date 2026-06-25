@@ -1,6 +1,7 @@
 import type { IconType } from "react-icons";
 import {
   SiReact,
+  SiSvelte,
   SiNextdotjs,
   SiAstro,
   SiAngular,
@@ -35,6 +36,7 @@ export type Tech = { name: string; Icon: IconType };
 // Only verified icons — drives the marquee and any icon grid.
 export const techMarquee: Tech[] = [
   { name: "TypeScript", Icon: SiTypescript },
+  { name: "Svelte", Icon: SiSvelte },
   { name: "React", Icon: SiReact },
   { name: "Next.js", Icon: SiNextdotjs },
   { name: "Astro", Icon: SiAstro },
