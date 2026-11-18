@@ -1,32 +1,57 @@
-# React + TypeScript + Vite
+# aromerob1.github.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Personal portfolio of Andrés Romero — full-stack developer (SvelteKit, React, NestJS, TypeScript, AWS & GCP, LLMs and AI agents).
 
-Currently, two official plugins are available:
+Live at **https://aromerob1.github.io**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
 
-## React Compiler
+- [Vite](https://vite.dev) + [React 19](https://react.dev) + TypeScript
+- [Tailwind CSS 4](https://tailwindcss.com)
+- [Framer Motion](https://www.framer.com/motion/) for animations
+- [Oxlint](https://oxc.rs) for linting
+- Hosted on GitHub Pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project structure
 
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+index.html            Meta tags (description, Open Graph, Twitter card)
+src/data.ts           All the content: about, experience, projects, skills, links
+src/components/       One component per section (Hero, About, Experience, Projects, Skills, Contact…)
+src/index.css         Design tokens (colors, fonts) and global styles
+public/               Static files: CV (PDF), og.png, project screenshots
+tools/og.html         Source of the social preview image (public/og.png)
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+To change what the site says, edit `src/data.ts` — the components only render it.
+
+## Development
+
+```bash
+npm ci --include=dev
+npm run dev       # local dev server
+npm run lint      # oxlint
+npm run build     # type-check + production build into dist/
+npm run preview   # serve the production build locally
+```
+
+If your shell exports `NODE_ENV=production`, install with `NODE_ENV=development npm ci --include=dev`, otherwise the dev dependencies (TypeScript, Vite) are skipped.
+
+## Deployment
+
+The source lives on the `source` branch. GitHub Pages serves the `gh-pages` branch, which only holds the built output.
+
+```bash
+NODE_ENV=production npm run deploy
+```
+
+This builds the site and pushes `dist/` to `gh-pages`. Pages takes about a minute to pick it up. Build with `NODE_ENV=production`; a development build ships a larger, unoptimized bundle.
+
+## Social preview image
+
+`public/og.png` (1200×630) is a screenshot of `tools/og.html`. To regenerate it, open that file in a browser at a 1200×630 viewport, take a screenshot and save it over `public/og.png`.
+
+## Notes
+
+- The Finny dashboard screenshot (`public/finny-dashboard.webp`) uses sample data, not real figures.
+- The CV served at `/Andres-Romero-CV.pdf` is `public/Andres-Romero-CV.pdf`; replace the file to update it.
