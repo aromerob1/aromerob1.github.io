@@ -2,7 +2,6 @@ export const profile = {
   name: "Andrés Romero",
   fullName: "Andrés Felipe Romero Brand",
   role: "Full-Stack Developer",
-  roles: ["Full-Stack Developer", "Software Engineer", "Cloud & DevOps"],
   // Hero statement (the serif word is highlighted)
   headline: { before: "I build", accent: "products", after: "end to end." },
   tagline:
@@ -14,22 +13,16 @@ export const profile = {
   location: "Remote · Based in Medellín, CO",
 };
 
-export const stats = [
-  { value: 2, suffix: "+", label: "Years building software" },
-  { value: 3, suffix: "", label: "Languages — ES · EN · DE" },
-  { value: 15, suffix: "+", label: "Technologies across the stack" },
-  { kicker: "Web · Cloud · AI", label: "Across the modern stack" },
-];
-
 export const about = {
   paragraphs: [
     "I’m a full-stack developer who likes owning features from the database to the UI. I’ve built reservation platforms, payment systems, real-time tooling and internal CRMs for commercial clients — mostly remote, across products that had to ship and keep working.",
-    "These days I work mostly in SvelteKit and NestJS, and move just as comfortably across React, Next.js and Astro. I’m increasingly hands-on with cloud and DevOps (GCP, AWS, Docker, CI/CD), and lately I’ve been going deep on AI engineering — integrating LLMs into products, building agentic workflows, and working daily with tools like Claude Code, Cursor and Codex. I care about clean architecture, real-time UX and code that the next person can read.",
+    "These days I work mostly in SvelteKit and NestJS, and move just as comfortably across React, Next.js and Astro. I’m increasingly hands-on with cloud and DevOps (GCP, AWS, Docker, CI/CD), and lately I’ve been going deep on AI engineering — integrating LLMs into products, building agentic workflows and my own MCP servers, and working daily with coding agents like Codex and Claude Code. I care about clean architecture, real-time UX and code that the next person can read.",
   ],
   languages: [
     { name: "Spanish", level: "Native" },
     { name: "English", level: "B2 · TOEFL iBT 88" },
     { name: "German", level: "B1 · Conversational" },
+    { name: "French", level: "A2 · Learning" },
   ],
   education: {
     degree: "BSc, Computer & Systems Engineering",
@@ -74,7 +67,7 @@ export const experience: Job[] = [
       "Developed parking-management apps with virtual wallets and automated payments.",
       "Implemented real-time chat over WebSockets and integrated thermal printers into client operations.",
     ],
-    stack: ["React", "Ionic", "Node.js", "WebSockets", "MySQL"],
+    stack: ["Angular", "Ionic", "Node.js", "Express", "WebSockets", "MongoDB"],
   },
   {
     role: "Web Development Teaching Assistant",
@@ -96,19 +89,44 @@ export type Project = {
   stack: string[];
   url?: string;
   repo?: string;
-  status?: "live" | "building";
+  status?: "daily";
   featured?: boolean;
+  /** Short facts shown in the side panel of a featured card. */
+  highlights?: string[];
+  image?: { src: string; alt: string; caption: string; width: number; height: number };
 };
 
 export const projects: Project[] = [
   {
-    title: "Finny",
-    blurb: "Personal-finance SaaS",
+    title: "Personal AI Assistant",
+    blurb: "Agentic assistant over WhatsApp",
     description:
-      "A backend-first personal finance assistant built as a SaaS on NestJS — accounts, transactions and budgeting exposed through a clean API. Currently in active development.",
-    stack: ["NestJS", "TypeScript", "PostgreSQL", "SaaS"],
-    status: "building",
+      "An agentic assistant I talk to over WhatsApp, built by directing coding agents and reviewing their output, and operated daily in production: custom MCP servers (email, calendar, finance, reminders), proactive scheduled agents on a self-administered server, and local speech-to-text (whisper.cpp).",
+    stack: ["TypeScript", "Node.js", "Claude Agent SDK", "MCP", "whisper.cpp"],
+    status: "daily",
     featured: true,
+    highlights: [
+      "Custom MCP servers — email, calendar, finance, reminders",
+      "Proactive scheduled agents on a self-administered server",
+      "Local speech-to-text with whisper.cpp for voice notes",
+      "WhatsApp as the only interface",
+    ],
+  },
+  {
+    title: "Finny",
+    blurb: "Self-hosted personal finance",
+    description:
+      "A personal-finance system I built for my own use and run on my own server: transaction ingestion pipeline, LLM-assisted categorization, budgeting API, analytics dashboard and a WhatsApp bot interface.",
+    stack: ["NestJS", "TypeScript", "PostgreSQL", "Prisma", "Next.js"],
+    status: "daily",
+    featured: true,
+    image: {
+      src: "/finny-dashboard.webp",
+      alt: "Finny dashboard showing the money left until the next paycheck and the daily spending pace",
+      caption: "Dashboard shown with sample data.",
+      width: 1600,
+      height: 1000,
+    },
   },
   {
     title: "Rick & Morty Explorer",
@@ -117,7 +135,6 @@ export const projects: Project[] = [
       "Browse, filter and star Rick and Morty characters through a custom GraphQL API (Apollo Server) with Redis caching on a Node/Express backend, served to a React front end.",
     stack: ["React", "TypeScript", "Node.js", "GraphQL", "Apollo", "Redis"],
     repo: "https://github.com/aromerob1/rick-and-morty-list",
-    featured: true,
   },
   {
     title: "Analytics Tasks Manager",
@@ -126,7 +143,6 @@ export const projects: Project[] = [
       "A full-stack task manager with JWT auth and a per-user analytics dashboard — CRUD over your own tasks plus insights on how you use them.",
     stack: ["React", "Node.js", "Express", "Sequelize", "MySQL", "JWT"],
     repo: "https://github.com/aromerob1/analytics-tasks-manager",
-    status: "live",
   },
   {
     title: "Weather Predictor",
@@ -145,7 +161,7 @@ export const skills: { group: string; items: string[] }[] = [
   },
   {
     group: "AI / LLM",
-    items: ["LLM integration", "AI agents", "Claude Code", "Cursor", "Codex", "Prompt engineering"],
+    items: ["LLM integration", "AI agents", "MCP servers", "Claude Agent SDK", "Claude Code", "Codex", "Cursor", "Prompt engineering"],
   },
   {
     group: "Frontend",

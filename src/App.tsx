@@ -2,7 +2,6 @@ import Background from "./components/Background";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Marquee from "./components/Marquee";
-import Stats from "./components/Stats";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
@@ -18,7 +17,6 @@ function App() {
       <main className="relative z-[2]">
         <Hero />
         <Marquee />
-        <Stats />
         <About />
         <Experience />
         <Projects />

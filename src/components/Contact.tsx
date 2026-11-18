@@ -26,7 +26,7 @@ export default function Contact() {
       <Reveal delay={0.1}>
         <a
           href={`mailto:${profile.email}`}
-          className="group inline-flex items-center gap-3 mt-10 px-6 py-4 rounded-full bg-[var(--accent)] text-black font-medium text-lg hover:opacity-90"
+          className="group inline-flex max-w-full items-center gap-2 sm:gap-3 mt-10 px-5 sm:px-6 py-4 rounded-full bg-[var(--accent)] text-black font-medium text-[15px] sm:text-lg hover:opacity-90"
         >
           <FiMail />
           {profile.email}
