@@ -67,7 +67,7 @@ export const experience: Job[] = [
       "Developed parking-management apps with virtual wallets and automated payments.",
       "Implemented real-time chat over WebSockets and integrated thermal printers into client operations.",
     ],
-    stack: ["Angular", "Ionic", "Node.js", "Express", "WebSockets", "MongoDB"],
+    stack: ["Angular", "Ionic", "Node.js", "Express", "WebSockets", "MongoDB", "React", "MySQL"],
   },
   {
     role: "Web Development Teaching Assistant",
