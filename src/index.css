@@ -55,6 +55,12 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  /* Italic glyphs overhang their inline box and background-clip:text cuts
+     them off (the "?" in "in mind?"). Widen the painted box, keep layout. */
+  padding: 0 0.18em 0.12em;
+  margin: 0 -0.18em -0.12em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 .text-balance { text-wrap: balance; }
