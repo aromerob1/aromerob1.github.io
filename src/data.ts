@@ -5,7 +5,7 @@ export const profile = {
   // Hero statement (the serif word is highlighted)
   headline: { before: "I build", accent: "products", after: "end to end." },
   tagline:
-    "Full-stack developer with 2+ years shipping responsive web apps and cloud-native services — SvelteKit, React and NestJS on AWS and GCP — and increasingly building with LLMs and AI agents.",
+    "Full-stack developer with 2+ years shipping responsive web apps and cloud-native services with SvelteKit, React and NestJS on AWS and GCP, and increasingly building with LLMs and AI agents.",
   email: "andresfeliperom@hotmail.com",
   github: "https://github.com/aromerob1",
   linkedin: "https://www.linkedin.com/in/aromerobrand/",
@@ -15,8 +15,8 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I’m a full-stack developer who likes owning features from the database to the UI. I’ve built reservation platforms, payment systems, real-time tooling and internal CRMs for commercial clients — mostly remote, across products that had to ship and keep working.",
-    "These days I work mostly in SvelteKit and NestJS, and move just as comfortably across React, Next.js and Astro. I’m increasingly hands-on with cloud and DevOps (GCP, AWS, Docker, CI/CD), and lately I’ve been going deep on AI engineering — integrating LLMs into products, building agentic workflows and my own MCP servers, and working daily with coding agents like Codex and Claude Code. I care about clean architecture, real-time UX and code that the next person can read.",
+    "I’m a full-stack developer who likes owning features from the database to the UI. I’ve built reservation platforms, payment systems, real-time tooling and internal CRMs for commercial clients, mostly remote, across products that had to ship and keep working.",
+    "These days I work mostly in SvelteKit and NestJS, and move just as comfortably across React, Next.js and Astro. I’m increasingly hands-on with cloud and DevOps (GCP, AWS, Docker, CI/CD), and lately I’ve been going deep on AI engineering: integrating LLMs into products, building agentic workflows and my own MCP servers, and working daily with coding agents like Codex and Claude Code. I care about clean architecture, real-time UX and code that the next person can read.",
   ],
   languages: [
     { name: "Spanish", level: "Native" },
@@ -26,8 +26,8 @@ export const about = {
   ],
   education: {
     degree: "BSc, Computer & Systems Engineering",
-    school: "Universidad de los Andes — Bogotá",
-    period: "2020 — 2025",
+    school: "Universidad de los Andes, Bogotá",
+    period: "2020 - 2025",
   },
 };
 
@@ -46,10 +46,10 @@ export const experience: Job[] = [
     role: "Full-Stack Developer",
     company: "Keep Calm Services",
     location: "Miami · Remote",
-    period: "Jan 2025 — Present",
+    period: "Jan 2025 - Present",
     current: true,
     bullets: [
-      "Build and maintain web apps and internal tools with SvelteKit and NestJS — TypeScript across the stack.",
+      "Build and maintain web apps and internal tools with SvelteKit and NestJS, with TypeScript across the stack.",
       "Design RESTful APIs and database schemas for an internal CRM platform that runs core business workflows.",
       "Build and ship marketing sites in Astro and Next.js, tuned for SEO and performance.",
       "Containerize and deploy services on GCP (Cloud Run, Cloud SQL, Cloud Storage) with automated scaling.",
@@ -60,7 +60,7 @@ export const experience: Job[] = [
     role: "Full-Stack Developer",
     company: "Mas Alcance",
     location: "Medellín · Remote",
-    period: "Nov 2023 — Oct 2024",
+    period: "Nov 2023 - Oct 2024",
     bullets: [
       "Delivered several full-stack web and mobile apps end to end for commercial clients.",
       "Built a hotel reservation platform (web + mobile) from the ground up.",
@@ -73,7 +73,7 @@ export const experience: Job[] = [
     role: "Web Development Teaching Assistant",
     company: "Universidad de los Andes × Bogotá City Hall",
     location: "Bogotá · Remote",
-    period: "May 2023 — Aug 2023",
+    period: "May 2023 - Aug 2023",
     bullets: [
       "Co-led a React & Node.js bootcamp run in partnership with Bogotá City Hall.",
       "Designed hands-on projects and exercises reinforcing UI/UX and code-quality best practices.",
@@ -106,7 +106,7 @@ export const projects: Project[] = [
     status: "daily",
     featured: true,
     highlights: [
-      "Custom MCP servers — email, calendar, finance, reminders",
+      "Custom MCP servers: email, calendar, finance, reminders",
       "Proactive scheduled agents on a self-administered server",
       "Local speech-to-text with whisper.cpp for voice notes",
       "WhatsApp as the only interface",
@@ -140,7 +140,7 @@ export const projects: Project[] = [
     title: "Analytics Tasks Manager",
     blurb: "Full-stack task manager",
     description:
-      "A full-stack task manager with JWT auth and a per-user analytics dashboard — CRUD over your own tasks plus insights on how you use them.",
+      "A full-stack task manager with JWT auth and a per-user analytics dashboard: CRUD over your own tasks plus insights on how you use them.",
     stack: ["React", "Node.js", "Express", "Sequelize", "MySQL", "JWT"],
     repo: "https://github.com/aromerob1/analytics-tasks-manager",
   },

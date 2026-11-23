@@ -1,6 +1,6 @@
 # aromerob1.github.io
 
-Personal portfolio of Andrés Romero — full-stack developer (SvelteKit, React, NestJS, TypeScript, AWS & GCP, LLMs and AI agents).
+Personal portfolio of Andrés Romero, full-stack developer (SvelteKit, React, NestJS, TypeScript, AWS & GCP, LLMs and AI agents).
 
 Live at **https://aromerob1.github.io**
 
@@ -23,7 +23,7 @@ public/               Static files: CV (PDF), og.png, project screenshots
 tools/og.html         Source of the social preview image (public/og.png)
 ```
 
-To change what the site says, edit `src/data.ts` — the components only render it.
+To change what the site says, edit `src/data.ts`; the components only render it.
 
 ## Development
 

@@ -19,7 +19,7 @@ export default function Contact() {
         </h2>
         <p className="mt-7 max-w-md mx-auto text-[var(--muted)] text-balance">
           I’m open to full-stack and backend opportunities. The fastest way to
-          reach me is email — I usually reply within a day.
+          reach me is email. I usually reply within a day.
         </p>
       </Reveal>
 
