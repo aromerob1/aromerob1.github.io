@@ -10,7 +10,7 @@ export const profile = {
   github: "https://github.com/aromerob1",
   linkedin: "https://www.linkedin.com/in/aromerobrand/",
   resumeUrl: "/Andres-Romero-CV.pdf",
-  location: "Medellín, CO · Remote, hybrid or on-site",
+  location: "Medellín, CO",
 };
 
 export const about = {
