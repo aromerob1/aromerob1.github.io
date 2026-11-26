@@ -46,7 +46,7 @@ export const experience: Job[] = [
     role: "Full-Stack Developer",
     company: "Keep Calm Services",
     location: "Miami · Remote",
-    period: "Jan 2025 - Present",
+    period: "Feb 2025 - Present",
     current: true,
     bullets: [
       "Build and maintain web apps and internal tools with SvelteKit and NestJS, with TypeScript across the stack.",
