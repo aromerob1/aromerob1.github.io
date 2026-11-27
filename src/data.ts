@@ -28,6 +28,11 @@ export const about = {
     degree: "BSc, Computer & Systems Engineering",
     school: "Universidad de los Andes, Bogotá",
     period: "2020 - 2025",
+    // Same claim as the CV's Education line. His part was the API contract only (DTOs +
+    // Swagger), never "built the backend", and never "shipped/in production": he graduated
+    // before go-live. Source: Vault 02-Areas/Carrera/perfil-profesional.md, 2026-11-26.
+    capstone:
+      "Capstone: NestJS DTOs and Swagger/OpenAPI docs for the in-house platform of the university’s medical center, built to replace a third-party system. Worked directly with physicians.",
   },
 };
 

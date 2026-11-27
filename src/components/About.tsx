@@ -52,6 +52,9 @@ export default function About() {
               <p className="text-sm text-[var(--faint)] mt-1 font-mono-brand">
                 {about.education.period}
               </p>
+              <p className="text-sm text-[var(--muted)] mt-3 leading-relaxed">
+                {about.education.capstone}
+              </p>
             </div>
           </Reveal>
         </div>

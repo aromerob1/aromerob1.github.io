@@ -26,7 +26,7 @@ import {
   SiGraphql,
   SiFlask,
   SiClaude,
-  SiOpenai,
+  SiGooglegemini,
   SiNpm,
 } from "react-icons/si";
 import { FaAws } from "react-icons/fa6";
@@ -43,7 +43,7 @@ export const techMarquee: Tech[] = [
   { name: "Node.js", Icon: SiNodedotjs },
   { name: "NestJS", Icon: SiNestjs },
   { name: "Claude", Icon: SiClaude },
-  { name: "OpenAI", Icon: SiOpenai },
+  { name: "Gemini", Icon: SiGooglegemini },
   { name: "Angular", Icon: SiAngular },
   { name: "Python", Icon: SiPython },
   { name: "Flask", Icon: SiFlask },
